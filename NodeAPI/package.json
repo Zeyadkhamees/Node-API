@@ -1,0 +1,24 @@
+{
+  "name": "node-js-day-2",
+  "version": "1.0.0",
+  "description": "this is first node js project",
+  "main": "index.js",
+  "scripts": {
+    "start": "SET SECRET=jkewhf57465dsfhghd57sdkjfj576sdjjk && nodemon  index "
+  },
+  "author": "mona soliman",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.1",
+    "nodemon": "^2.0.22",
+    "validator": "^13.9.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
+}
